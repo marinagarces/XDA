@@ -1,8 +1,4 @@
 .container {
-	/*display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;*/
   width: 97%;
   position: relative;
   padding-right: 15px;
@@ -15,9 +11,20 @@
 }
 
 .box_central_box3{
+  font-family: $font_1;
   background-color: $smokyblack;
   color: $white;
   padding: 5%;
+}
+
+
+h1 {
+  font-family: $font_1;
+}
+
+p {
+  font-family: $font_2;
+  line-height : 30px;
 }
 
 input[type=text], select {
@@ -25,7 +32,7 @@ input[type=text], select {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid $granite-gray;
   box-sizing: border-box;
 }
 
