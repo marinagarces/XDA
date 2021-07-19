@@ -24,6 +24,12 @@ header {
     }
 }
 
+.nav_logo{
+  color: $white;
+  float: left;
+  background-color: $smokyblack;
+  padding: 2px 0 2px 0;
+}
 
 /*Cambiar el color de nav para los links*/
 a:visited, a:link, a:focus {

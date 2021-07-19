@@ -45,6 +45,13 @@ header {
   line-height: 70px;
 }
 
+.nav_logo {
+  color: #fff;
+  float: left;
+  background-color: #0C0910;
+  padding: 2px 0 2px 0;
+}
+
 /*Cambiar el color de nav para los links*/
 a:visited, a:link, a:focus {
   font-weight: 700;
