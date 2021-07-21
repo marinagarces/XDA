@@ -126,6 +126,69 @@ body {
   text-align: center;
 }
 
+@media (max-width: 575.98px) {
+  aside {
+    display: none;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .contenido_noticia {
+    white: 100px;
+    display: block;
+  }
+
+  img {
+    width: 700px;
+    text-align: center;
+  }
+
+  .column-half {
+    display: table-cell;
+    /*padding: 25px;*/
+    vertical-align: top;
+    width: 100%;
+  }
+
+  .column-half-1 {
+    float: left;
+  }
+
+  .column-half-2 {
+    float: right;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  aside {
+    display: none;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  img {
+    width: 700px;
+    text-align: center;
+  }
+
+  .column-half {
+    display: table-cell;
+    /*padding: 25px;*/
+    vertical-align: top;
+    width: 100%;
+  }
+
+  .column-half-1 {
+    float: left;
+  }
+
+  .column-half-2 {
+    float: right;
+  }
+}
 /* Components */
 .newsletter_group input,
 .newsletter_group button {

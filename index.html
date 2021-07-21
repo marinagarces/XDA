@@ -2,26 +2,28 @@
 <html>
 <head>
     <title>Revista Online</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets\css\main.css">
     <link rel='stylesheet' href="assets\sass\main.scss">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
+<header>
   <div class="contenedor">
-      <div class="menu">
-          <div class="menu_logo">Diario</div>
-          <div class="nav">
-              <ul>
-                  <li><a href="">Nosotros</a></li>
-                  <li><a href="">Contacto</a></li>
-                  <li><input class="input-menu" type="text" name="buscar" placeholder="buscar..." /></li>
-              </ul>
-          </div>
-      </div>
+    <div class="menu">
+      <div class="menu_logo">Diario</div>
+      <div class="nav">
+        <ul>
+          <li><a href="">Nosotros</a></li>
+          <li><a href="">Contacto</a></li>
+          <li><input class="input-menu" type="text" name="buscar" placeholder="buscar..." /></li>
+        </ul>
+    </div>
+  </div>
+</header>
       <div class="contenido">
-          <div class="contenido_listad-noticias">
+          <div class="contenido_listad-noticias column-half column-half-2">
               <div class="contenido_noticia">
               <div class="contenido_cabecera">
                       <h2>
@@ -101,6 +103,7 @@
                   </div>
               </div>
           </div>
+          <aside>
           <div class="listado-izquierdo">
               <div class="listado-izquierdo_cabecera">
                   <h1>Nosotros </h1>
@@ -135,16 +138,23 @@
               </div>
           </div>
       </div>
-      <div class="newsletter">
+    </aside>
+    <section>
+      <div class="newsletter column-half column-half-1">
           <h2>Lorem ipsum dolor sit amet</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
           <div class="newsletter_group">
               <input type="text" name=""><button>Suscríbete</button>
           </div>
       </div>
+    </section>
       <div class="footer">
           <p>Todos los derechos reservados</p>
       </div>
     </div>
+
+    <!--bootstrap-->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
